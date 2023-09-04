@@ -27,3 +27,29 @@ if(condition){
 }
 
 
+Logical operators: 
+
+== : Værdien er ens
+
+=== : Værdien og typen er ens
+
+!= : Værdier er ikke ens
+
+&& : Bruges til at inkorpere endnu en sammenligning fx: 
+let x = 10
+let y = 5
+
+if(x == 10 && y==5){
+  Her køres koden, da statement er sandt
+} 
+
+
+|| : Betyder 'or' og kan bruges til at finde ud af om én af flere statements er sande fx: 
+
+if(x == 9 || y == 5){
+  Her køres koden, da et af de to statements er sande. 
+}
+
+
+
+
