@@ -1,4 +1,29 @@
 Javascript notes if statements, Logical operators - 4/Sep-2023
 
 
-I
+if er et statement hvori du giver en condition, hvis denne er sand kører koden i dit scope fx: 
+
+if(condition){
+  //Her kører dit kode
+}
+
+else - bruges til hvis din condition i dit if statement ikke er sand: 
+
+if(condition){
+  //Her kører dit kode
+}else{
+  Her kører dit kode, hvis dit if statement er false
+}
+
+
+else if - bruges til at lave en ny condition i dit if statement fx:
+
+if(condition){
+  //Her kører dit kode
+}else{
+  Her kører dit kode, hvis dit if statement er false
+}else if{
+  Her kører dit kode, his dit else if statement er sandt
+}
+
+
