@@ -35,6 +35,18 @@ Logical operators:
 
 != : Værdier er ikke ens
 
+!== : Værdier er måske ens, men type ikke ens, eller slet ikke ens. 
+
+> : Venstre værdi er større end højre værdi
+
+< : Højre værdi er større end venstre værdi
+
+>= : Bigger than or equal to
+
+<= : Lesser than or equal to
+
+! : NOT : Værdierne er ikke ens
+
 && : Bruges til at inkorpere endnu en sammenligning fx: 
 let x = 10
 let y = 5
